@@ -1,0 +1,75 @@
+/*
+Theme Name: olevia
+
+Support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+@see http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+body {
+  direction: rtl;
+  unicode-bidi: embed; }
+
+.c-menu-primary .sub-menu .sub-menu {
+  left: auto;
+  right: 100%; }
+
+@media screen and (max-width: 1024px) {
+  .c-menu-primary-mobile__sub-menu-toggle {
+    right: auto;
+    left: 0; } }
+
+.c-brand {
+  float: right; }
+
+.c-nav-primary {
+  float: left; }
+
+@media screen and (min-width: 801px) {
+  .c-nav-primary__search {
+    margin-left: 0;
+    margin-right: 30px;
+    margin-right: 1.875rem;
+    float: left; } }
+
+.c-nav-primary__search .search-form {
+  right: auto;
+  left: 0; }
+
+.c-menu-primary-mobile {
+  right: auto;
+  left: 0;
+  -webkit-transform: translateX(-100%);
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%); }
+  .c-menu-primary-mobile.is-actiev {
+    -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+            transform: translateX(0); }
+
+.c-nav-primary__mobile-toggle.is-active {
+  right: auto;
+  left: 0; }
+
+.c-menu-primary > li:first-child {
+  margin-left: 0; }
+
+.c-portfolio-item__details {
+  text-align: right; }
+
+.c-post-nav__link--prev {
+  float: right; }
+
+.c-post-nav__link--next {
+  float: left; }
+
+@media screen and (min-width: 801px) {
+  .c-comment__body {
+    padding-left: 0;
+    padding-right: 90px; } }
+
+@media screen and (min-width: 801px) {
+  .c-comment__avatar {
+    left: auto;
+    right: 0; } }

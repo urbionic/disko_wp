@@ -1,0 +1,36 @@
+# Changelog
+
+## 1.2.1
+* Added: New custom logo feature in WordPress 4.5.
+
+## 1.2.0
+* Changed: Sanitize function changed from wp_filter_post_kses() to wp_kses_post() on areas which allow basic HTML.
+* Added: Support menu link under the theme menu in the admin menu bar area.
+* Added: 2x2 and 4x4 grid layout option in the customizer for the home page template.
+* Added: 4x4 layout option in the customizer for the portfolio page template.
+* Changed: Major code changes in header.php file. Improved accessbility for screen readers.
+
+## 1.1.3
+* Fixed: Menu items not changing to theme color setting.
+
+## 1.1.2
+* Removed: Minified assets (rely on plugins instead).
+* Fixed: Translation functions that were used wrongly.
+* Removed: Theme documentation menu page.
+* Added: Admin bar menu for theme related pages.
+* Fixed: Portfolio items on the "Home" page template stacks vertically for a split second before reordering the layout. (Thanks @StiliyanL!)
+* Added: Opacity transition to portfolio items on the "Home" page template as well.
+* Fixed: Blog posts causing layout problems when posts are of uneven height. (Thanks @StiliyanL!)
+
+## 1.1.1
+* Added: Search bar now closes when clicked outside of search box.
+
+## 1.1.0
+* Added: Now supports RTL!
+* Fix: Featured images (both portfolio and normal posts) now align to center.
+
+## 1.0.1
+* Fix: Menu not appearing correctly in Firefox. (Thanks Justin!)
+
+## 1.0.0
+* Initial release

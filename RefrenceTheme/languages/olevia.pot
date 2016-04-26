@@ -1,0 +1,88 @@
+# Copyright (C) 2016 olevia
+# This file is distributed under the same license as the olevia package.
+msgid ""
+msgstr ""
+"Project-Id-Version: olevia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n\n"
+
+#: ../olevia/src/404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../olevia/src/404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: ../olevia/src/comments.php:31
+msgctxt "comments title heading"
+msgid "One thought"
+msgid_plural "%1$s thoughts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../olevia/src/comments.php:43
+msgctxt "comments title heading"
+msgid "One thought on %2$s"
+msgid_plural "%1$s thoughts on %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../olevia/src/comments.php:79
+msgid "Comments are closed."
+msgstr ""
+
+#: ../olevia/src/functions.php:99
+msgid "Primary"
+msgstr ""
+
+#: ../olevia/src/functions.php:100
+msgid "Footer Social"
+msgstr ""
+
+#: ../olevia/src/functions.php:101
+msgid "Footer"
+msgstr ""
+
+#: ../olevia/src/functions.php:152
+msgid "Content Sidebar"
+msgstr ""
+
+#: ../olevia/src/functions.php:162
+msgid "Footer Sidebar"
+msgstr ""
+
+#: ../olevia/src/header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: ../olevia/src/home.php:17
+msgid "Blog"
+msgstr ""
+
+#: ../olevia/src/search.php:19
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../olevia/src/searchform.php:13, ../olevia/src/searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: ../olevia/src/searchform.php:14
+msgctxt "placeholder"
+msgid "Search..."
+msgstr ""
+
+#: ../olevia/src/searchform.php:16
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
