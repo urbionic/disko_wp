@@ -1,0 +1,42 @@
+HELLBISCUIT presents "GUMBALL SPECIAL"
+-------------------------------------------------------------------
+
+You need to know a few things to get this theme working (but not much, it's easy).
+
+-------------------------------------------------------------------
+
+Post Images:
+Imagery drives this theme - without images, it doesn't look so hot. To add an image you need to use the "Custom Fields" section of your Write Post panel.
+Upload any images you'd like to use to the directory called "post-images" and remember the filename.
+
+To add an image to the home page (220px x 190px minimum) input the word "thumbnail" into the key textbox and your filename into the "value" box. Value should be something like "myphoto.jpg"
+
+To add an image to the post page (I'd suggest not going over 400px wide) input the word "image" into the key textbox and your filename into the "value" box. Value should be something like "myphoto.jpg"
+
+This way, you can specify a smaller image for the home page and a larger image for the post page (or use the same image for both - it will fit).
+
+-------------------------------------------------------------------
+
+Number of posts per page:
+I've set the demo up to only display 8 posts per page to round out the design. Feel free to go over or under, but you'll see what happens. It still looks good, but not the full on HELLBISCUIT EXPERIENCE.
+
+-------------------------------------------------------------------
+
+Categories and Pages:
+Don't be concerned! Even though the categories and page panels (in the right side bar) are set to 340px in height; they are set up to show as many categories as you'd like. You'll get a nifty scrollbar of course but hey - I do what I can do...
+
+-------------------------------------------------------------------
+
+Last but not least... ADS!
+There are two ad units on the right side. Ads are saved into the folder "ads" and can be whatever. You'll have to manually set the URL's within the sidebar php file. 
+
+-------------------------------------------------------------------
+
+Gravatar:
+Gravatar is supported in this theme, but if you have questions - ask them. I never really use it. http://www.gravatar.com/
+
+------------------------------------------------------------------
+
+Link Backs:
+You'll notice some footer links and image links back to me (Evan Eckard) and the biscuit. Feel free to remove any except the text links in the footer. If you choose to keep them all... YOU ROCK I LOVE YA!
+
