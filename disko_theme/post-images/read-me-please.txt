@@ -1,0 +1,1 @@
+This directory is where you can upload all of your post images. Any image that you wish to display in a blog entry should go here.
