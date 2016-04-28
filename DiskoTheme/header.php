@@ -39,3 +39,20 @@
 /* google analytics */
 </script>
 </head>
+
+<body>
+    <div class="wrapper" id="top">
+        <div class="header">
+            <h1>
+                <a href="http://www.disko.co.za/" title="Disko">
+                    <!-- add img logo -->
+                </a>
+           </h1>
+            <nav class="nav-collapse">
+                <ul class="menu" id="menu">
+                    <li><a href="#" title="title">Menu item</a></li>
+                    <li><a href="#" title="title">Menu item</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="content" class="content_top">
