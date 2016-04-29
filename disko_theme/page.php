@@ -25,7 +25,7 @@
             <div class="caption">
                 <div>
                     <strong>"<?php the_title(); ?>".</strong>
-                    <span><?php the_excerpt('Read the rest of this entry &raquo;'); ?></span>
+                    <span>BLEH<?php the_excerpt('Read the rest of this entry &raquo;'); ?></span>
                 </div>
             </div>
         </a>

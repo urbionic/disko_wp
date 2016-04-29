@@ -11,6 +11,8 @@ CHANGES
 2004-11-14 Fixed URL ampersand XHTML encoding issue by updating to use proper entity
 */
 
+add_theme_support( 'post-thumbnails' ); 
+
 function gravatar($rating = false, $size = false, $default = false, $border = false) {
 	global $comment;
 	$out = "http://www.gravatar.com/avatar.php?gravatar_id=".md5($comment->comment_author_email);

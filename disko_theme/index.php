@@ -30,6 +30,7 @@ foreach($posts as $post) :
     <!-- repeater <li> of posts by same category -->
     <li>
         <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>">
+          
             <img class="cat_img" src="<?php bloginfo('stylesheet_directory'); ?>/post-images/<?php $key="thumbnail"; echo get_post_meta($post->ID, $key, true); ?>" alt="" border="0" class="image" />
             <div class="caption">
                 <div>
