@@ -70,12 +70,12 @@
 	<div class="header">
 	    <h1>
 	       <a href="<?php echo esc_url( home_url( '/' ) ); // Link to the home page ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home">
-	            <img src="<?php bloginfo('template_directory'); ?>/img/logo.png">
+	            <img src="<?php bloginfo('template_directory'); ?>/img/logoDark.png">
 	       </a>
 	   </h1>
-	   <h4 class="site-description">
+	   <!--<h4 class="site-description">
 			<?php bloginfo( 'description' ); // Display the blog description, found in General Settings ?>
-		</h4>
+		</h4>-->
 	     <nav class="nav-collapse">
 	        <ul class="menu" id="menu">
 	   			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); // Display the user-defined menu in Appearance > Menus ?>
@@ -83,5 +83,5 @@
 	   	</nav>		
 
 	</div>
-	<div id="content" class="content_top">
+	
 

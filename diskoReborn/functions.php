@@ -16,6 +16,7 @@ if ( ! isset( $content_width ) ) $content_width = 900;
 /* Add Rss feed support to Head section
 /*-----------------------------------------------------------------------------------*/
 add_theme_support( 'automatic-feed-links' );
+add_theme_support( 'post-thumbnails' ); /* RR edit for thumbnails */
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -52,6 +53,8 @@ add_action( 'widgets_init', 'naked_register_sidebars' );
 /*-----------------------------------------------------------------------------------*/
 /* Enqueue Styles and Scripts
 /*-----------------------------------------------------------------------------------*/
+
+/* RR edit remove naked stuff and add disko things */
 
 function naked_scripts()  { 
 

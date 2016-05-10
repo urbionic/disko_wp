@@ -55,7 +55,7 @@ h1 a img{width:10%; float:left;margin:1% 0;}
 h2{margin:0 0 1% 0;font-size:1.5em; display:inline;}	
 h3{display:inline;font-size:1.5em;color:#999;}	
  
-.header, .footer{position:fixed; z-index:1; background:url(../img/recursos/header_bg.png); width:100%;max-width:800px;} 
+.header, .footer{position:fixed; z-index:1; background:url(../img/header_bg.png); width:100%;max-width:800px;} 
 	
 .footer{font-size:.9em;padding:1% 0;bottom:0px;}	
 	
