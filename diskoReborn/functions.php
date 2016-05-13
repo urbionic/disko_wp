@@ -5,12 +5,12 @@
 	/*-----------------------------------------------------------------------------------*/
 
 // Define the version so we can easily replace it throughout the theme
-define( 'NAKED_VERSION', 1.0 );
+define( 'DISKO_VERSION', 1.0 );
 
 /*-----------------------------------------------------------------------------------*/
 /*  Set the maximum allowed width for any content in the theme
 /*-----------------------------------------------------------------------------------*/
-if ( ! isset( $content_width ) ) $content_width = 900;
+if ( ! isset( $content_width ) ) $content_width = 800;
 
 /*-----------------------------------------------------------------------------------*/
 /* Add Rss feed support to Head section
@@ -24,7 +24,7 @@ add_theme_support( 'post-thumbnails' ); /* RR edit for thumbnails */
 /*-----------------------------------------------------------------------------------*/
 register_nav_menus( 
 	array(
-		'primary'	=>	__( 'Primary Menu', 'naked' ), // Register the Primary menu
+		'primary'	=>	__( 'Primary Menu', 'disko' ), // Register the Primary menu
 		// Copy and paste the line above right here if you want to make another menu, 
 		// just change the 'primary' to another name
 	)
@@ -33,7 +33,7 @@ register_nav_menus(
 /*-----------------------------------------------------------------------------------*/
 /* Activate sidebar for Wordpress use
 /*-----------------------------------------------------------------------------------*/
-function naked_register_sidebars() {
+function disko_register_sidebars() {
 	register_sidebar(array(				// Start a series of sidebars to register
 		'id' => 'sidebar', 					// Make an ID
 		'name' => 'Sidebar',				// Name it
@@ -48,7 +48,7 @@ function naked_register_sidebars() {
 	));
 } 
 // adding sidebars to Wordpress (these are created in functions.php)
-add_action( 'widgets_init', 'naked_register_sidebars' );
+add_action( 'widgets_init', 'disko_register_sidebars' );
 
 /*-----------------------------------------------------------------------------------*/
 /* Enqueue Styles and Scripts
@@ -56,16 +56,14 @@ add_action( 'widgets_init', 'naked_register_sidebars' );
 
 /* RR edit remove naked stuff and add disko things */
 
-function naked_scripts()  { 
+function disko_scripts()  { 
 
 	// get the theme directory style.css and link to it in the header
 	wp_enqueue_style('style.css', get_stylesheet_directory_uri() . '/style.css');
 	
-	// add fitvid
-	wp_enqueue_script( 'naked-fitvid', get_template_directory_uri() . '/js/jquery.fitvids.js', array( 'jquery' ), NAKED_VERSION, true );
+	// add responsive nav script
+	wp_enqueue_script( 'disko-responsivenav', get_template_directory_uri() . '/js/responsive-nav.js', array( 'jquery' ), DISKO_VERSION, true );
 	
-	// add theme scripts
-	wp_enqueue_script( 'naked', get_template_directory_uri() . '/js/theme.min.js', array(), NAKED_VERSION, true );
   
 }
-add_action( 'wp_enqueue_scripts', 'naked_scripts' ); // Register this fxn and allow Wordpress to call it automatcally in the header
+add_action( 'wp_enqueue_scripts', 'disko_scripts' ); // Register this fxn and allow Wordpress to call it automatcally in the header

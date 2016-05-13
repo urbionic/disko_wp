@@ -27,19 +27,12 @@
 <meta property="og:locale" content="en_EN">
 <meta property="fb:admins" content="" /> <!-- get info from fb regarding admin id - prob ferdi -->
 <!-- fb add -->
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato' type='text/css'>
-
 
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/base.css" media="screen" type="text/css" />
-<!-- concatenate + add to functions on clean up -->
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/responsive-nav.css" media="screen" type="text/css" />
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/menu_mov.css" media="screen" type="text/css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/responsive-nav.js"></script>
+
 <script type="text/javascript">
 /* google analytics */
 </script>
