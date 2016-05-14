@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
 
 /*
 Theme Name: Disko Reborn
@@ -97,7 +97,7 @@ a:hover {
 
 body {
     line-height: 1;
-    color: black;
+    color: #000;
     background: white;
 }
 
@@ -151,9 +151,9 @@ q {
 }
 
 body {
-    color: #ffcc04;
-    font-size: 12px;
-    font-family: "Lato", sans-serif;
+    color: #333;
+    font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
     background: #fff;
 }
 
@@ -213,9 +213,9 @@ a:hover {
 }
 
 h1 a img {
-    width: 40%;
+    width: 15%;
     float: left;
-    margin: 2.5% 0;
+    margin: 4% 0;
 }
 
 h2 {
@@ -234,14 +234,11 @@ h3 {
 .footer {
     position: fixed;
     z-index: 1;
-    background: #333;
+    background: rgba(255,255,255, 0.7);
     width: 100%;
     max-width: 800px;
 }
 
-.header {
-    top: 0px;
-}
 
 .footer {
     font-size: .9em;
@@ -275,7 +272,9 @@ h3 {
 
 #menu li a {
     text-decoration: none;
-    font-size: 1em;
+    font-size:1rem;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 figure.vid_img {
@@ -290,12 +289,15 @@ figure.vid_img iframe {
 }
 
 figure.vid_img p {
-    text-align: center
+    text-align: right;
+    padding: 0.5rem 0 1rem;
+    font-size: 1.2rem;
 }
 
-figure.vid_img img {
+/*figure.vid_img img {
+    display: block;
     margin: 0 auto 2%!important;
-}
+}*/
 
 span.pic_foot {
     display: block;
@@ -384,6 +386,7 @@ span.pic_foot {
     margin-bottom: -2px;
 }
 
+
 .menu_thumb li img,
 .menu_thumb_4 li img {
     width: 100%;
@@ -391,6 +394,8 @@ span.pic_foot {
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
     transition: all .5s ease-out;
+    width: 192px;
+    height: 192px;
 }
 
 #on img {

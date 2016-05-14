@@ -1,18 +1,22 @@
 <?php
-/**
- * The template for displaying any single page.
- *
+/*
+ Template Name: About
  */
 
 get_header(); // This fxn gets the header.php file and renders it ?>
 <div id="content" class="content_top">	
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<div class="txt">
-    <h2><?php the_title(); ?></h2>
-</div>
+
 <article class="about">
-	<?php the_content(); ?>
+	<div class="img_about">
+		<img src="http://localhost:81/disko/wp-content/uploads/2016/05/face2.jpg">
+	</div>
+	
+	<div class="txt_about">
+		 <h2><?php the_title(); ?></h2>
+		 <?php the_content(); ?>
+		</div>
 </article>
 
 <?php endwhile; ?>

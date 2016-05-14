@@ -8,9 +8,12 @@
             <br class="clear" />
             <footer class="footer">
                 <ul>
-                    <li><a href="mailto:info@disko.co.za" title="contact" target="_blank">contact</a>&nbsp;|&nbsp;</li>
-                    <li><a href="https://www.instagram.com/disko/" title="instagram" target="_blank">instagram</a>&nbsp;|&nbsp;</li>
-                    <li><a href="https://www.behance.net/disko" title="behance" target="_blank">behance</a></li>
+                    <li><a href="mailto:info@disko.co.za" title="contact" target="_blank">Contact</a>&nbsp; | &nbsp;</li>
+                    <li><a href="https://www.instagram.com/disko3d/" title="Disko Instagram page" target="_blank">Instagram</a>&nbsp; | &nbsp;</li>
+                    <li><a href="http://www.behance.net/FerdiDisko" title="Disko Behance page" target="_blank">Behance</a>&nbsp; | &nbsp;</li>
+                    <li><a href="http://www.facebook.com/Disko3DIllustration" title="Disko Facebook page" target="_blank">Facebook</a>&nbsp; | &nbsp;</li>
+                    <li><a href="http://pinterest.com/ferdidisko/" title="Disko Pinterest page" target="_blank">Pinterest</a></li>
+
                 </ul>
             </footer>
         </div>

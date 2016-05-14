@@ -7,21 +7,14 @@
 get_header(); // This fxn gets the header.php file and renders it ?>
 <div id="content" class="content_top">	
 
-
-
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 <div class="txt">
-    <h2>"<?php the_title(); ?>".&nbsp;</h2>
-    <h3><?php the_author() ?>.  <?php the_time('F jS') ?>.</h3>
+    <h2>"<?php the_title(); ?>"&nbsp;</h2>
+    <h3><?php the_time('F jS') ?>.</h3>
     <p><?php the_category(', ') ?>.</p>
 </div>
 <figure class="vid_img">
-    <ul>
-         <!--<li> of images available in post 
-        <li><img src="" alt="" width="100%" /></li> -->
-    
-    <li><?php the_content(); ?></li>
-    </ul>
+	<?php the_content(); ?>
 </figure>
 <?php endwhile; ?>
 <?php else: ?>
@@ -59,4 +52,4 @@ foreach ($categories as $category) :
 
 </ul>
 
-<?php get_footer(); // This fxn gets the footer.php file and renders it ?>
+<?php get_footer(); ?>
