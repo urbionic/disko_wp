@@ -53,7 +53,7 @@ var _gaq = _gaq || [];
 </h1>
     <nav class="nav-collapse">
         <ul class="menu" id="menu">
-            <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); // Display the user-defined menu in Appearance > Menus ?>
+            <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
         </ul>
     </nav>      
 </div>
