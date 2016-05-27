@@ -26,6 +26,9 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 	        </a>
 	    </li>
 <?php endwhile; ?>
+<?php else: ?>
+<p>No categories</p>
+<?php endif; ?>
 
 				</ul>
 
