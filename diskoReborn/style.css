@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300);
 
 /*
 Theme Name: Disko Reborn
@@ -97,7 +97,7 @@ a:hover {
 
 body {
     line-height: 1;
-    color: black;
+    color: #000;
     background: white;
 }
 
@@ -151,9 +151,9 @@ q {
 }
 
 body {
-    color: #ffcc04;
-    font-size: 12px;
-    font-family: "Lato", sans-serif;
+    color: #333;
+    font-size: 1rem;
+    font-family: "Roboto Condensed", sans-serif;
     background: #fff;
 }
 
@@ -213,9 +213,9 @@ a:hover {
 }
 
 h1 a img {
-    width: 40%;
+    width: 15%;
     float: left;
-    margin: 2.5% 0;
+    margin: 4% 0;
 }
 
 h2 {
@@ -234,14 +234,11 @@ h3 {
 .footer {
     position: fixed;
     z-index: 1;
-    background: #333;
+    background: rgba(255,255,255, 0.7);
     width: 100%;
     max-width: 800px;
 }
 
-.header {
-    top: 0px;
-}
 
 .footer {
     font-size: .9em;
@@ -275,7 +272,9 @@ h3 {
 
 #menu li a {
     text-decoration: none;
-    font-size: 1em;
+    font-size:1rem;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 figure.vid_img {
@@ -290,10 +289,14 @@ figure.vid_img iframe {
 }
 
 figure.vid_img p {
-    text-align: center
+    text-align: right;
+    padding: 0.5rem 0 1rem;
+    font-size: 1.2rem;
 }
 
 figure.vid_img img {
+    width: 100%;
+    height: auto;
     margin: 0 auto 2%!important;
 }
 
@@ -381,8 +384,9 @@ span.pic_foot {
     position: relative;
     float: left;
     overflow: hidden;
-    margin-bottom: -2px;
+    margin-bottom: -3px;
 }
+
 
 .menu_thumb li img,
 .menu_thumb_4 li img {
@@ -391,6 +395,7 @@ span.pic_foot {
     -webkit-transition: all .5s ease-out;
     -moz-transition: all .5s ease-out;
     transition: all .5s ease-out;
+    height: auto;
 }
 
 #on img {
@@ -434,11 +439,12 @@ span.pic_foot {
     display: block;
     color: #FFF;
     margin-bottom: 5px;
-    font-size: 1.1em;
+    font-size: 0.95rem;
 }
 
 .menu_thumb li a div.caption span {
-    color: #999;
+    color: #efefef;
+    font-size: 0.75rem;
 }
 
 .menu_thumb li a div.caption span.broadcaster {
@@ -657,7 +663,7 @@ span.pic_foot {
         margin-top: -3%;
         width: 100%;
         float: left;
-        background: url(./img/header_bg.png);
+        background:rgba(255,255,255,0.7);
     }
     .nav-collapse ul#menu li {
         display: inline;
@@ -698,3 +704,126 @@ span.pic_foot {
         padding: 1em;
     }
 }
+
+/* Extra for forms */
+
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  width: 98%;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  margin-bottom: 1rem }
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px; }
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: .5rem;
+  font-weight: normal; }
+
+  .button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+  .page-id-12 .addthis_toolbox { display: none; }
+.wpcf7-response-output {float: right}

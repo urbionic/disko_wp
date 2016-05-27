@@ -18,6 +18,13 @@ if ( ! isset( $content_width ) ) $content_width = 800;
 add_theme_support( 'automatic-feed-links' );
 add_theme_support( 'post-thumbnails' ); /* RR edit for thumbnails */
 
+/* -- update excerpt lenght -- */
+
+function wpdocs_custom_excerpt_length( $length ) {
+    return 5;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+
 
 /*-----------------------------------------------------------------------------------*/
 /* Register main menu for Wordpress use
